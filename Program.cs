@@ -66,20 +66,57 @@ namespace ParktickWork___Pokemon_Class
     {
         static void Main(string[] args)
         {
-            Litwick litwick = new Litwick();
-            litwick.statics();
+            bool workApp = true;
 
-            Console.WriteLine();
-            Console.WriteLine();
+            while (workApp)
+            {
+                Console.WriteLine("Select Pokemon:\n1) Litwick\n2) Lampent\n3) Chandelure");
+                Console.Write("Write number Pokemon: ");
+                int select = int.Parse(Console.ReadLine());
 
-            Lampent lampent = new Lampent();
-            lampent.statics();
+                switch (select)
+                {
+                    case 1:
+                        {
+                            Console.Clear();
+                            Litwick litwick = new Litwick();
+                            litwick.statics();
+                            Console.WriteLine("Press any key...");
+                            Console.ReadLine();
+                            Console.Clear();
+                            break;
+                        }
 
-            Console.WriteLine();
-            Console.WriteLine();
+                    case 2:
+                        {
+                            Console.Clear();
+                            Lampent lampent = new Lampent();
+                            lampent.statics();
+                            Console.WriteLine("Press any key...");
+                            Console.ReadLine();
+                            Console.Clear();
+                            break;
+                        }
 
-            Chandelure chandelure = new Chandelure();
-            chandelure.statics();
+                    case 3:
+                        {
+                            Console.Clear();
+                            Chandelure chandelure = new Chandelure();
+                            chandelure.statics();
+                            Console.WriteLine("Press any key...");
+                            Console.ReadLine();
+                            Console.Clear();
+                            break;
+                        }
+
+                    case 0:
+                        {
+                            Console.Clear();
+                            workApp = false;
+                            break;
+                        }
+                }
+            }
         }
     }
 }
