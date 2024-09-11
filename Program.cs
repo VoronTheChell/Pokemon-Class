@@ -57,6 +57,11 @@ namespace ParktickWork___Pokemon_Class
         public Lampent() : base("Lampent", "Ghost", 60, 40, 60, 95, 60, 55, "Fire") { }
     }
 
+    class Chandelure : Pokemon
+    {
+        public Chandelure() : base() { }
+    }
+
     internal class Program
     {
         static void Main(string[] args)
