@@ -54,7 +54,7 @@ namespace ParktickWork___Pokemon_Class
 
     public class Lampent : Pokemon
     {
-        public Lampent() : base("Lampent", "Ghost", 60, 40, 0, 0, 0, 0) { }
+        public Lampent() : base("Lampent", "Ghost", 60, 40, 60, 95, 0, 0) { }
     }
 
     internal class Program
