@@ -66,7 +66,8 @@ namespace ParktickWork___Pokemon_Class
     {
         static void Main(string[] args)
         {
-            
+            Litwick litwick = new Litwick();
+            litwick.statics();
         }
     }
 }
