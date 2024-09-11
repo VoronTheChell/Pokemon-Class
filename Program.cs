@@ -68,6 +68,18 @@ namespace ParktickWork___Pokemon_Class
         {
             Litwick litwick = new Litwick();
             litwick.statics();
+
+            Console.WriteLine();
+            Console.WriteLine();
+
+            Lampent lampent = new Lampent();
+            lampent.statics();
+
+            Console.WriteLine();
+            Console.WriteLine();
+
+            Chandelure chandelure = new Chandelure();
+            chandelure.statics();
         }
     }
 }
