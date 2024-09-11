@@ -46,6 +46,12 @@ namespace ParktickWork___Pokemon_Class
         }
     }
 
+    // Записываем Няшки
+    public class Litwick : Pokemon
+    {
+        public Litwick() : base() { }
+    }
+
     internal class Program
     {
         static void Main(string[] args)
