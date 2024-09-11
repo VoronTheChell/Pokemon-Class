@@ -59,7 +59,7 @@ namespace ParktickWork___Pokemon_Class
 
     class Chandelure : Pokemon
     {
-        public Chandelure() : base() { }
+        public Chandelure() : base("Chandelure", "Ghost", 60, 55, 90, 145, 90, 80, "Fire") { }
     }
 
     internal class Program
