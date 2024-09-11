@@ -49,7 +49,7 @@ namespace ParktickWork___Pokemon_Class
     // Записываем Няшки
     public class Litwick : Pokemon
     {
-        public Litwick() : base() { }
+        public Litwick() : base("Litwick", "Ghost", 50, 30, 55, 65, 55, 20) { }
     }
 
     internal class Program
