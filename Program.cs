@@ -52,6 +52,11 @@ namespace ParktickWork___Pokemon_Class
         public Litwick() : base("Litwick", "Ghost", 50, 30, 55, 65, 55, 20, "Fire") { }
     }
 
+    public class Lampent : Pokemon
+    {
+        public Lampent() : base() { }
+    }
+
     internal class Program
     {
         static void Main(string[] args)
